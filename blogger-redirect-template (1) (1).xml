@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html expr:dir='data:blog.languageDirection' lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='http://ogp.me/ns#'>
+<head>
+<b:if cond='data:blog.pageType == "index"'>
+<link rel='canonical' href='http://lifestylemanno1.infinityfreeapp.com/' />
+<meta content='0;url=http://lifestylemanno1.infinityfreeapp.com/' http-equiv='refresh'/>
+<script>
+//<![CDATA[
+window.location.href = "http://lifestylemanno1.infinityfreeapp.com/";
+//]]>
+</script>
+<b:else/>
+<link rel='canonical' expr:href='"http://lifestylemanno1.infinityfreeapp.com/" + data:blog.url' />
+<meta expr:content='"0;url=http://lifestylemanno1.infinityfreeapp.com/" + data:blog.url' http-equiv='refresh'/>
+<script>
+//<![CDATA[
+window.location.href = "http://lifestylemanno1.infinityfreeapp.com" + window.location.pathname;
+//]]>
+</script>
+</b:if>
+<b:skin><![CDATA[/*
+-----------------------------------------------
+Name: Blogger Redirect
+Designer: pipdig
+URL: https://www.pipdig.co
+----------------------------------------------- */
+/*
+]]></b:skin>
+</head>
+<body>
+<b:section id='header' showaddelement='no'>
+<b:widget id='Header1' locked='true' title='techxt (Header)' type='Header'/>
+</b:section>
+</body>
+</html>
